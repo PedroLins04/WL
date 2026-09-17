@@ -1,0 +1,96 @@
+/* @Autor - PedroLins*/
+
+body {
+  background:
+    linear-gradient(25deg, #fff, #7091ce);
+  background-attachment: fixed;
+}
+
+/** BOTÕES */
+.btn-azul {
+  background-color: #313c5c;
+}
+
+.btn-azul:hover {
+  background: #6283a8;
+}
+
+.entrar {
+  background-color: #313c5c;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.entrar:hover {
+  background-color: #6283a8;
+  color: white;
+}
+
+.navbar-custom .navbar-toggler{
+  background-color: #313c5c;
+  border: none;
+}
+
+.navbar-custom .navbar-toggler:hover{
+  background-color: #27476d;
+  border: none;
+}
+
+.navbar-custom .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem #6283a8;
+}
+
+/** NAVBAR */
+.navbar-custom .container {
+  gap: 0.75rem;
+}
+
+.navbar-custom .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-custom .nav-link {
+  color: #1b263b;
+  font-size: large;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #27476d;
+  transform: scale(1.02);
+}
+
+/** SEARCH */
+#searchImovel .input-group {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+#searchImovel input {
+  border: none;
+  padding: 0 18px;
+  font-size: 0.95rem;
+  background-color: transparent;
+}
+
+#searchImovel input::placeholder {
+  color: #777777e0;
+}
+
+#searchImovel .btn-azul {
+  border: none;
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+#searchImovel .btn-azul i {
+  font-size: 1.1rem;
+}
+
+#searchImovel input:focus {
+  outline: none;
+  box-shadow: none;
+}
