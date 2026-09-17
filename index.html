@@ -1,69 +1,100 @@
 <!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>WL_Imóveis</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="imagens/favicon.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-</head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="imagens/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <!--!Header config-->
-        <nav class="navbar navbar-expand-lg bg-light bg-opacity-10 fixed-top navbar-custom">
+      <!--!Header config-->
+      <nav
+        class="navbar navbar-expand-lg bg-light bg-opacity-10 fixed-top navbar-custom"
+      >
+        <!--*CONTAINER-->
+        <div class="container justify-content-center flex-wrap flex-lg-nowrap">
+          <!--*CONTENT DIV-->
+          <div class="d-flex align-items-center justify-content-center gap-2">
+            <!--*BRAND-->
+            <a
+              class="navbar-brand me-2 p-2 d-flex align-items-center"
+              href="index.html"
+            >
+              <img
+                src="imagens/logoWaldirLinsGrande.png"
+                alt="WL"
+                width="120"
+                title="WL Imóveis"
+              />
+            </a>
 
-            <!--*CONTAINER-->
-            <div class="container justify-content-center flex-wrap flex-lg-nowrap">
+            <!--*SEARCH-->
+            <form class="d-flex me-4 me-md-0" role="search" id="searchImovel">
+              <div class="input-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Procurar imóvel"
+                  aria-label="Pesquisar imóveis"
+                />
+                <button class="btn btn-azul" type="submit">
+                  <i class="bi bi-search text-white"></i>
+                </button>
+              </div>
+            </form>
 
-                <!--*CONTENT DIV-->
-                <div class="d-flex align-items-center justify-content-center gap-2">
+            <!--*WRAPPER-->
+            <button
+              class="navbar-toggler border-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navegacao"
+              aria-controls="navegacao"
+              aria-expanded="false"
+              aria-label="Menu"
+            >
+              <i class="bi bi-list text-light fs-2"></i>
+            </button>
+          </div>
 
-                    <!--*BRAND-->
-                    <a class="navbar-brand me-2 p-2 d-flex align-items-center" href="index.html">
-                        <img src="imagens/logoWaldirLinsGrande.png" alt="WL" width="120" title="WL Imóveis">
-                    </a>
-
-                    <!--*SEARCH-->
-                    <form class="d-flex me-4 me-md-0" role="search" id="searchImovel">
-                        <div class="input-group">
-                            <input type="search" class="form-control" placeholder="Procurar imóvel"
-                                aria-label="Pesquisar imóveis">
-                            <button class="btn btn-azul" type="submit">
-                                <i class="bi bi-search text-white"></i>
-                            </button>
-                        </div>
-                    </form>
-
-                    <!--*WRAPPER-->
-                    <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navegacao" aria-controls="navegacao" aria-expanded="false" aria-label="Menu">
-                        <i class="bi bi-list text-light fs-2"></i>
-                    </button>
-                </div>
-
-                <!-- *COLLAPSE -->
-                <div class="collapse navbar-collapse justify-content-end" id="navegacao">
-                    <ul class="navbar-nav align-items-lg-center gap-lg-1">
-                        <li class="nav-item ms-2 ms-md-0"><a href="#" class="nav-link">Ajuda</a></li>
-                        <li class="nav-item ms-2 ms-md-0"><a href="#" class="nav-link">Favoritos</a></li>
-                        <li class="nav-item ms-2 ms-md-0"><a href="#" class="nav-link">Sobre</a></li>
-                    </ul>
-                    <span class="ms-lg-2">
-                        <button type="button" class="btn btn-outline-light entrar" id="btnEntrar">Entrar</button>
-                    </span>
-                </div>
-
-            </div>
-        </nav>
+          <!-- *COLLAPSE -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navegacao"
+          >
+            <ul class="navbar-nav align-items-lg-center gap-lg-1">
+              <li class="nav-item ms-2 ms-md-0">
+                <a href="#" class="nav-link">Ajuda</a>
+              </li>
+              <li class="nav-item ms-2 ms-md-0">
+                <a href="#" class="nav-link">Favoritos</a>
+              </li>
+              <li class="nav-item ms-2 ms-md-0">
+                <a href="#" class="nav-link">Sobre</a>
+              </li>
+            </ul>
+            <span class="ms-lg-2">
+              <button
+                type="button"
+                class="btn btn-outline-light entrar"
+                id="btnEntrar"
+              >
+                Entrar
+              </button>
+            </span>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>

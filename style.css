@@ -1,8 +1,7 @@
 /* @Autor - PedroLins*/
 
 body {
-  background:
-    linear-gradient(25deg, #fff, #7091ce);
+  background: linear-gradient(25deg, #fff, #7091ce);
   background-attachment: fixed;
 }
 
@@ -22,17 +21,17 @@ body {
   box-shadow: 0 3px 8px #00000013;
 }
 
-.entrar:hover{
+.entrar:hover {
   background-color: #3c8be6;
   color: #fff;
 }
 
-.navbar-custom .navbar-toggler{
+.navbar-custom .navbar-toggler {
   background-color: #0e2d8a;
   border: none;
 }
 
-.navbar-custom .navbar-toggler:hover{
+.navbar-custom .navbar-toggler:hover {
   background-color: #3c8be6;
   transition: all 0.2s ease-in-out;
   border: none;
@@ -64,7 +63,7 @@ body {
 
 /** SEARCH */
 #searchImovel .input-group {
-  background-color: #ffffff7e;
+  background-color: #ffffffd8;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 3px 12px #00000026;
